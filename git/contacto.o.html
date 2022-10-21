@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang:"es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-cale=1.0">
+    <title>Vetatech</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="shortcut icon" href="C:\Users\nahir\Desktop\vetatech-cepeda\imagenes\img.png" type="img/x.icon">
+    <script src="https://kit.fontawesome.com/2906296b95.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="df-header">
+        <div class="logo">
+            <img src="C:\Users\nahir\Desktop\vetatech-cepeda\imagenes\img.png" alt="logo">
+
+            <p class="welcome">BIENVENIDOS</p>
+        </div>
+        <nav>
+            <ul class="df-ul">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="servicios.o.html">Productos</a></li>
+                <li><a href="contacto.o.html">Contacto</a></li>
+                <li><a href="preguntas.o.html">Preguntas Frecuentes</a></li>
+                <li><a href="empresa.o.html">Nosotros</a></li>
+
+            </ul>
+            <ol class="df-ol">
+                <li>Notebook</li>
+                <li>PCs de Escritorios</li>
+                <li>Monitores</li>
+                <li>Micros</li>
+                <li>Placas</li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <div class="title">
+            <h2>CONTACTO</h2>
+        </div>
+        <div class="form">
+            <form action="./contacto" , method="POST" , enctype="application/x-www-form-urlencoded">
+
+                <label for="name">Nombre</label>
+                <input type="text" name="nombre" placeholder="Nombre">
+                <br>
+
+                <label for="text">Apellido</label>
+                <input type="text" name="apellido" placeholder="Apellido">
+                <br>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Email">
+                <br>
+
+                <label for="text">Mensaje</label>
+                <input type="text" name="mensaje" placeholder="mensaje">
+                <br>
+
+                <textarea name="mensaje" cols="30" rows="10"></textarea>
+                <br>
+
+                <div>
+                    <botton class="boton-form">
+                        <a>Enviar formulario</a>
+                    </botton>
+                    <botton class="boton-form">
+                        <a>Limpiar formulario</a>
+
+                    </botton>
+                    <div class="suscribe">
+                        <p>SÉ EL PRIMERO EN ENTERARTE!</p>
+                        <p>Suscríbete y recibe las mejores promos...</p>
+                        <input type="text" action="./contacto" method="POST" enctype="application/x-www-form-urlencoded"
+                            name="email">
+                    </div>
+
+
+
+                </div>
+            </form>
+        </div>
+
+
+    </main>
+    <footer class="bg-footer">
+        <p class="type-white">Hecho por Nahir Cepeda</p>
+        <div class="redes">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="type-white">Medios de Pago</p>
+        <div class="f-pago">
+            <a href=""><i class="fas fa-money-check-alt"></i></a>
+            <a href=""><i class="fas fa-shopping-cart"></i></a>
+            <a href=><i class="fas fa-credit-card"></i></a>
+
+        </div>
+    </footer>
+</body>
+
+</html>
