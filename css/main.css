@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:antiquewhite
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/*-------------------HEADER------------------*/
+.df-header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:black;
+    flex-direction: row;
+    padding: 15px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo p{
+    margin: 10px
+}
+
+.welcome{
+    color:antiquewhite;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.df-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+   
+}
+.hover:hover{
+    background-color: rgb(64, 64, 65);
+}
+.df-ul li{
+    margin:10px;
+    
+}
+.df-ol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    background-color:  rgb(121, 116, 116);
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+
+    
+}
+.df-ol li{
+    margin:10px;
+
+}
+
+/*-------------------FIN DE HEADER------------------*/
+
+
+/*------------------------MAIN-----------------------*/
+.df-main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-index{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bg-card{
+    background-color: rgb(145, 163, 157);
+    padding: 9px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 500px;
+}
+
+.border-card{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-left: 1px solid #8000;
+    border-right: 1px solid #8000;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+}
+.titulo{
+    text-align: center;
+}
+.backg-card{
+    background-color: rgb(204, 65, 181);
+    padding: 9px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 500px;
+
+}
+
+.botton{
+    background-color:black;
+    padding: 10px 15px;
+    margin:10px;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500px;
+
+}
+.botton:hover{
+    background-color: rgb(49, 48, 48);
+}
+.title{
+    text-align: center;
+}
+.form{
+    margin: 15px;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    grid-row: inherit;
+    
+}
+.boton-form{
+    background-color: rgb(165, 161, 161);
+    padding: 10px 15px;
+    margin:10px;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 100px;
+}
+.boton-form:hover{
+    background-color: rgb(121, 116, 116);
+}
+.suscribe{
+    margin: 15px;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    grid-row: inherit;
+}
+.preguntas{
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    font-size: medium;
+}
+.pago{
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    font-size: medium; 
+}
+.f-pago{
+    max-width: 50px;
+    max-height: 50px;
+}
+.nosotros{
+    text-align: center;
+}
+ol{
+    list-style-type: disc;
+}
+/*---------------------FIN DE MAIN-------------------*/
+
+/*------------------------FOOTER-----------------------*/
+.bg-footer{
+    background-color:rgb(69, 68, 70);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.type-white{
+    color:antiquewhite;
+
+}
+.redes a i{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10px;
+}
+.redes a i:hover{
+    transform: scale(1.5);
+    transition: all is ease;
+}
+
+
+/*-------------------FIN DE FOOTER-----------------------*/
+
+header{
+
+    grid-area: header;
+}
+
+nav{
+
+    grid-area: nav;
+}
+
+.productos{
+
+    grid-area: productos;
+}
+.servicios{
+    grid-area: servicios;
+}
+
+footer{
+
+    grid-area: footer;
+}
